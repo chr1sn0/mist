@@ -6,9 +6,9 @@
                 "linux": {
                     "x64":  {
                         "download": {
-                            "url": "https://github.com/chr1sn0/pirl/archive/1.0.0.zip",
+                            "url": "https://github.com/chr1sn0/pirl/releases/download/1.0.1/pirl-1.0.1-zip",
                             "type": "zip",
-                            "md5": "c03b24d2d139a2a74e878da7e14aa3dd",
+                            "md5": "442bcc8510a79a56b89fa96d1f894a9f",
                             "bin": "pirl"
                         },
                         "bin": "pirl",
