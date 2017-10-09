@@ -4,7 +4,7 @@
             "version": "1.7.0-unstable",
             "platforms": {
                 "linux": {
-                    "x64":  {
+                    "x64": {
                         "download": {
                             "url": "https://github.com/chr1sn0/pirl/releases/download/1.0.1/pirl-1.0.1.zip",
                             "type": "zip",
