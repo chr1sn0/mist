@@ -7,7 +7,7 @@
                     "x64":  {
                         "download": {
                             "url": "https://github.com/chr1sn0/pirl/releases/download/1.0.1/pirl",
-                            "type": "",
+                            "type": "zip",
                             "md5": "202c7fde117287e90d3e191ad1076745",
                             "bin": "pirl"
                         },
