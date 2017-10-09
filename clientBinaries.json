@@ -4,106 +4,22 @@
             "version": "1.7.1",
             "platforms": {
                 "linux": {
-                    "x64": {
+                    "x64":  {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.7.1-05101641.tar.gz",
-                            "type": "tar",
-                            "md5": "05abcf84078d5739c8f2e0e1b5bd9c97",
-                            "bin": "geth-linux-amd64-1.7.1-05101641/geth"
-                        },
-                        "bin": "geth",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.1"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-386-1.7.1-05101641.tar.gz",
-                            "type": "tar",
-                            "md5": "d50845ff7961b6b7eb25b8556f8bdfa0",
-                            "bin": "geth-linux-386-1.7.1-05101641/geth"
-                        },
-                        "bin": "geth",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.1"
-                                ]
-                            }
-                        }
-                    }
-                },
-                "mac": {
-                    "x64": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.7.1-05101641.tar.gz",
-                            "type": "tar",
-                            "md5": "dfdbf1ed0ae7fec2ff063d47f1a28c58",
-                            "bin": "geth-darwin-amd64-1.7.1-05101641/geth"
-                        },
-                        "bin": "geth",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.1"
-                                ]
-                            }
-                        }
-                    }
-                },
-                "win": {
-                    "x64": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.7.1-05101641.zip",
+                            "url": "https://github.com/pirl/pirl/releases/download/1.0.0/pirl-linux64-1.0.0.zip",
                             "type": "zip",
-                            "md5": "0218149913290d047c1b24032f573f02",
-                            "bin": "geth-windows-amd64-1.7.1-05101641\\geth.exe"
+                            "md5": "dd280c45eb5da0c7a6affdd6fc7d699d",
+                            "bin": "pirl"
                         },
-                        "bin": "geth.exe",
+                        "bin": "pirl",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.1"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-386-1.7.1-05101641.zip",
-                            "type": "zip",
-                            "md5": "4a198f5c736b86515a042873a5c7165b",
-                            "bin": "geth-windows-386-1.7.1-05101641\\geth.exe"
-                        },
-                        "bin": "geth.exe",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.7.1"
+                                "output":[
+                                    "Pirl",
+                                    "1.7.0-unstable"
                                 ]
                             }
                         }
