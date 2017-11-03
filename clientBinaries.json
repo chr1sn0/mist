@@ -1,17 +1,17 @@
 {
     "clients": {
         "Geth": {
-            "version": "1.7.0-unstable",
+            "version": "1.0.1-stable",
             "platforms": {
                 "linux": {
                     "x64":  {
                         "download": {
-                            "url": "https://github.com/chr1sn0/pirl/releases/download/1.0.1/pirl.tar.gz",
+                            "url": "http://release.pirl.io/downloads/pirl/linux/1.0.1/pirl-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "d4ae2103789940046aab46ebf6487972",
-                            "bin": "pirl"
+                            "md5": "8a38147cd9f76e7f2d758a94d71f4456",
+                            "bin": "pirl-linux-amd64"
                         },
-                        "bin": "pirl",
+                        "bin": "pirl-linux-amd64",
                         "commands": {
                             "sanity": {
                                 "args": [
@@ -19,7 +19,7 @@
                                 ],
                                 "output":[
                                     "Pirl",
-                                    "1.7.0-unstable"
+                                    "1.0.1-stable"
                                 ]
                             }
                         }
